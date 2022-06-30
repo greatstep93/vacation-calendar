@@ -5,10 +5,8 @@ import ru.greatstep.vacationcalendar.Models.VacationTimeTable;
 import ru.greatstep.vacationcalendar.Models.Worker;
 
 import java.time.LocalDate;
-import java.time.Month;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class DemoMain {
     public static void main(String[] args) throws Exception {
@@ -34,7 +32,7 @@ public class DemoMain {
             vacations.add(vacation);
             vacations.add(vacation2);
                 Worker worker1 = new Worker("Dmitriy Tkachenko", 28, vacations);
-                System.out.println(worker1);
+
 
 
         VacationTimeTable vacationTimeTable = new VacationTimeTable();
